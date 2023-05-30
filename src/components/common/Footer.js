@@ -20,7 +20,7 @@ const Footer = () => {
         <div className="wrapper footer_wrapper">
           <div className="foot_about">
             <h2>
-              <Link to="/">X-Beat</Link>
+              <Link to="/">BEATVN</Link>
             </h2>
             <div className="foot_subs">
               <p>

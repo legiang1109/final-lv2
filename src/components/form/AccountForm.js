@@ -42,7 +42,7 @@ const AccountForm = () => {
                 <p>
                   {isSignupVisible
                     ? "Already have an account ?"
-                    : "New to X-Beat ?"}
+                    : "New to BEATVN ?"}
                   &nbsp;&nbsp;
                   <button type="button" onClick={handleIsSignupVisible}>
                     {isSignupVisible ? "Login" : "Create an account"}
