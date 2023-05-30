@@ -44,15 +44,19 @@
     text-align: center;
     padding: 1rem;
     overflow: hidden;
-
-    img {
-        width: 70%;
-        @include transition(transform, 0.25s, ease);
-
-        &:hover {
-            transform: scale(1.05);
+    figure{
+        min-height: 249px;
+        img {
+            min-height: 100px;
+            width: 70%;
+            @include transition(transform, 0.25s, ease);
+    
+            &:hover {
+                transform: scale(1.05);
+            }
         }
     }
+
 }
 
 .products_details {
